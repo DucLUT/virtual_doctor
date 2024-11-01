@@ -6,7 +6,7 @@ import {
 } from "@react-three/drei";
 import { Suspense, useEffect, useRef, useState } from "react";
 import { useChat } from "../hooks/useChat";
-import { Avatar } from "./Avatar";
+import { Model as Avatar } from "./Avatar";
 
 const Dots = (props) => {
   const { loading } = useChat();
